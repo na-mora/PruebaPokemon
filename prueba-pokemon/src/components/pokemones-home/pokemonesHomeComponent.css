@@ -1,0 +1,14 @@
+.pokemones{
+    max-width: 38rem;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    gap: 17px;
+
+    margin-top: -7rem;
+
+    position: absolute;
+    margin-left: 2.4rem;
+}

@@ -1,0 +1,41 @@
+/* Header Pokemon */
+.header-pokemon-detalle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2.3rem;
+    height: 9rem;
+    
+}
+
+.header-pokemon-trazado{
+   
+    margin-left: 1.3rem;
+}
+
+.header-pokemon-trazado img{
+    height: 5.5rem;
+    opacity: 1;
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.header-pokemon-trazado img:hover{
+    cursor: pointer;
+}
+
+.header-pokemon-logout{
+    margin-right: 2.4rem;
+    margin-top: -.5rem;
+}
+
+.header-pokemon-logout img{
+    height: 3.5rem;
+    margin-top: 0;
+    opacity: 1;
+    margin-bottom: 0;
+}
+
+.header-pokemon-logout img:hover{
+    cursor: pointer;
+}

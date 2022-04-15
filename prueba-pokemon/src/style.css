@@ -1,0 +1,113 @@
+/*---------------------------------------------------*/
+/* Generalidades */
+/*---------------------------------------------------*/
+:root{
+
+    /* Fuentes */
+    --fuenteEncabezado: 'Museo Sans Rounded', sans-serif;
+    --fuenteSecundaria: 'Lato', sans-serif;
+   
+    /* Colores */
+    --blancoClaro: #ffffff;
+    --blancoMedio: #FFFFFF3B;
+    --blancoOscuro: #FFFFFF5E;
+
+    --grisClaro: #00000012;
+    --grisMedio: #00000029;
+
+    --negroOscuro: #000000CF;
+    --negroMedio: #333C46;
+
+    --verdeClaro: #48D0B0;
+    --verdeMedio: #33CBA7;
+    --verdeOscuro: #00BE91;
+
+    --rojoClaro: #FB6C6C;
+    --rojoMedio:#EC5757;
+    --rojoOscuro:#FF2727;
+
+    --vinotinto:#9E0000;
+
+    --azulClaro:#6EBAFF;
+    --azulMedio:#52A6F3;
+    --azulOscuro:#006ED1;
+
+    --amarilloClaro:#FED66D;
+    --amarilloMedio:#FFD86F;
+    --amarilloOscuro:#DFA300;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /*1rem = 10px*/
+}
+*, *:before, *:after {
+    /* Heredan las caracteristicas de el padre (html)*/
+    box-sizing: inherit;
+}
+
+body {
+    /*Tamaño de la fuente*/
+    font-size: 1.6rem;
+    /*Interlineado un poco mas grande para que se pueda leer mejor*/
+    line-height: 2;
+}
+
+/*---------------------------------------------------*/
+/* Globales */
+/*---------------------------------------------------*/
+.contenedor {
+    max-width: 428px;
+    width: 100%;
+    height: 928px;
+    /*Centrar todo el contenido de la pagina*/
+    margin: 0 auto;
+    border: 1px solid var(--grisMedio);
+}
+
+a {
+    /*Quitamos todas las lineas que tienen los enlaces*/
+    text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--fuenteEncabezado);
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 4.8rem; /* 4.8rem = 48px */
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+/*---------------------------------------------------*/
+/* Utilidades */
+/*---------------------------------------------------*/
+
+.no-margin{
+    /*Clase para eliminar el margen*/
+    margin: 0 auto;
+}
+
+.no-padding{
+    /*Clase para eliminar los padding*/
+    padding: 0;
+}
+
+.centrar-texto{
+    /*Clase para centrar el texto*/
+    text-align: center;
+}
+.bold{
+    font-weight: bold;
+}

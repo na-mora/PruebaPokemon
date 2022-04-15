@@ -1,0 +1,142 @@
+/*--------------------------------*/
+/* Pokemon de la lista principal*/
+/*--------------------------------*/
+
+.pokemon{
+    display: flex;
+
+    /* Quito valores que tenga por defecto */
+    margin: 0;
+    padding: 0;
+
+    width: 178px;
+    height: 104px;
+
+    /* Color de fondo por defecto en la appliacion*/
+    background: transparent linear-gradient(59deg, #48D0B0 0%, #33CBA7 78%, #00BE91 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 8px;
+    opacity: 1;
+    
+}
+
+.pokemon:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
+
+}
+
+.pokemon-descripcion{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-top: 0;
+}
+
+.pokemon-descripcion h3{
+
+    width: 7.7rem;
+    height: 1.9rem;
+
+    text-align: center;
+    font-family: var(--fuenteEncabezado);
+    font-weight: 700;
+    font-size: 1.8rem; /* 16-19 px */
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+
+    margin-left: 1rem;
+    margin-bottom: 0.7rem;
+}
+
+.pokemon-texto{
+    width: 70px;
+    height: 16px;
+    background: #FFFFFF5E 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 1;
+
+    margin-left: 1rem;
+    margin-bottom: 0.7rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .4rem;
+}
+
+.pokemon-texto p{
+    text-align: left;
+    font-family: var(--fuenteSecundaria);
+    font-weight: normal;
+    font-size: 12px; /* 12-15 px*/
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin:0;
+}
+
+
+.pokemon-imagen{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    width: 87px;
+    height: 87px;
+
+    background: transparent url('../../assets/img/normal/pokeball.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+    margin: 0;
+    margin-top: 1.1rem;
+    
+}
+
+.pokemon-imagen p{
+    text-align: right;
+    font-family: var(--fuenteSecundaria);
+    font-weight: normal;
+    font-size: 12px; /* 12-15 px*/
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+
+    width: 38px;
+    height: 15px;
+
+    /* Reinicio valores por defecto */
+    margin: 0;
+    padding: 0;
+
+    margin-top: 0;
+}
+
+.pokemon-imagen img{
+    height: 8rem;
+    width: 9rem;
+
+    /* Reinicio valores por defecto */
+    margin: 0;
+    padding: 0;
+
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+/* Colores de fondo dependiendo del pokemon (Colores primarios)*/
+.fondo-rojo{
+    background: transparent linear-gradient(60deg, #FB6C6C 0%, #EC5757 62%, #FF2727 100%, #9E0000 100%) 0% 0% no-repeat padding-box;
+}
+.fondo-verde{
+    background: transparent linear-gradient(59deg, #48D0B0 0%, #33CBA7 78%, #00BE91 100%) 0% 0% no-repeat padding-box;
+}
+.fondo-amarillo{
+    background: transparent linear-gradient(59deg, #FED66D 0%, #FFD86F 9%, #DFA300 100%) 0% 0% no-repeat padding-box;
+}
+.fondo-azul{
+    background: transparent linear-gradient(60deg, #6EBAFF 0%, #52A6F3 52%, #006ED1 100%) 0% 0% no-repeat padding-box;
+}

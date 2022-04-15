@@ -1,0 +1,141 @@
+.pokemon-detalle-info-especificacion-pokemon{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+/* Encabezados */
+.pokemon-detalle-info-especificacion-pokemon p{
+    
+    text-align: left;
+    font-family: var(--fuenteSecundaria);
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin: 0;
+    margin-left: 2.4rem;
+    margin-top: 1rem;
+    margin-bottom: .6rem;
+}
+
+/* Tabla de especificaciones */
+.pokemon-detalle-info-especificacion-tabla{
+    margin-top: 3.55rem;
+    margin-left: 2.4rem;
+    width: 50%;
+}
+
+.casilla-titulo{
+    text-align: left;
+    font-family: var(--fuenteEncabezado);
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #333C4687;
+    opacity: 1;
+
+    margin: 0;
+    padding: 0;
+}
+
+.casilla-contenido{
+    
+    text-align: left;
+    font-family: var(--fuenteSecundaria);
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #333C46;
+    opacity: 1;
+
+    margin: 0;
+    padding: 0;
+}
+
+/* Tipos */
+.tipos{
+    display: flex;
+    gap: .6rem;
+    margin-left: 2.4rem;
+    
+}
+
+.tipo{
+    display: block;
+    text-align: center;
+    padding:0 5rem;
+    border: none;
+
+    background: #43CFAE 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 1;
+    
+
+}
+
+.tipo p{
+    /* Reinicio los valores por defecto*/
+    margin: 0;
+    padding: 0;
+
+    text-align: left;
+    font-family: var(--fuenteSecundaria);
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+       
+}
+
+/* Debilidades */
+.debilidades{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: .6rem;
+    margin-left: 2.4rem;
+    width: 16rem;
+    
+}
+
+.debilidad{
+    display: block;
+    text-align: center;
+    padding: 0 5rem;
+    border: none;
+
+    background: #43CFAE 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+.debilidad p {
+     /* Reinicio los valores por defecto*/
+     margin: 0;
+     padding: 0;
+ 
+     text-align: left;
+     font-family: var(--fuenteSecundaria);
+      font-size: 16px;
+    font-weight: normal;
+     letter-spacing: 0px;
+     color: #FFFFFF;
+     opacity: 1;
+     
+}
+
+.rojo{
+    background-color: var(--rojoOscuro);
+}
+.azul{
+    background-color: var(--azulOscuro);
+}
+.morado{
+    background-color: rgba(120, 4, 97, 0.067);
+}
+.cafe{
+    background-color: rgb(247, 102, 6);
+}

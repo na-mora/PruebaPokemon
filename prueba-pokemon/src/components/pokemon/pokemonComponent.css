@@ -1,0 +1,96 @@
+/*-----------------------------------------*/
+/* Pagina de un pokemon en especifico */
+/*-----------------------------------------*/
+.principal-pokemon-detalle{
+    background: #3ECEAC 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 926px;
+}
+
+.pokemon-detalle{
+    display: flex;
+    flex-direction: column;
+}
+
+.pokemon-detalle-info{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    opacity: 1;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px ;
+    height: 553px;
+    border-bottom: 1px solid var(--grisMedio);
+}
+
+/* Especificaciones si ya cargo*/
+.pokemon-detalle-info-especificacion{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Opciones de las especifivaciones */
+.pokemon-detalle-info-especificacion-opciones{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2.4rem;
+    gap: 4rem;
+    margin-top: 7.4rem;
+    
+    padding-bottom: 2rem;
+    
+}
+
+/* Activo en Pokemon */
+.pokemon-activo{
+    width: 6.5rem;
+    border-bottom: 2px solid  var(--azulOscuro);
+}
+
+/* Activo en Evolucion */
+.evolucion-activo{
+    width: 6.5rem;
+    border-bottom: 2px solid  var(--azulOscuro);
+    
+}
+
+/* Enlaces de la navegacion */
+.pokemon-detalle-info-especificacion-opciones p{
+    width: 66px;
+    height: 19px;
+
+    text-align: left;
+    font-family: var(--fuenteSecundaria);
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+
+    /* Reinicio los valores predeterminados*/
+    margin: 0;
+}
+
+/* Mostrar la informacion */
+.desactivar{
+    display: none;
+}
+
+.activar{
+    display: block;
+    
+}
+
+
+/* Fondo por el color */
+.rojo{
+    background: var(--rojoOscuro) 0% 0% no-repeat padding-box;
+}
+.verde{
+    background: #3ECEAC 0% 0% no-repeat padding-box;
+}
+.azul{
+    background: var(--azulOscuro) 0% 0% no-repeat padding-box;
+}
+.amarillo{
+    background: var(--amarilloOscuro) 0% 0% no-repeat padding-box;
+}

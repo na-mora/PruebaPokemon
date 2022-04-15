@@ -1,0 +1,107 @@
+/*********************/
+/* Opcion evolucion */
+/*********************/
+
+.pokemon-detalle-info-especificacion-evolucion-fondo{
+    height: 34.2rem;
+    width: 34.2rem;
+    background-image: url('../../assets/img/normal/pokeball.svg');
+    filter: invert(50%);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    margin-left: 4.3rem;
+    margin-right: 4.3rem;
+    margin-top: 3.05rem;
+    margin-top: 2;
+}
+
+
+/* Contenido evolucion */
+.pokemon-detalle-contenido{
+    display: flex;
+    flex-direction: column;
+
+    width: 257px;
+    margin: 0 auto;
+    margin-top: -30rem;
+}
+
+/* Imagen evolucion */
+.pokemon-detalle-contenido img{
+    height: 25.7rem;
+    
+}
+
+/* Detalles de la evolucion */
+.pokemon-detalle-contenido-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokemon-nombre-evolucion{
+    text-align: left;
+    font-family: var(--fuenteEncabezado);
+    font-size: 3.6rem;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #333C46;
+    opacity: 1;
+    margin: 0;
+}
+
+.pokemon-numero-evolucion{
+    text-align: left;
+    font-family: var(--fuenteSecundaria);
+    font-size: 2.2rem;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #333C46;
+    opacity: 1;
+}
+
+.tipos-evolucion{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .6rem;
+    margin-top: 0;
+}
+
+.tipo-evolucion{
+    width: 119px;
+    height: 24px;
+    background: #43CFAE 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.tipo-evolucion p{
+    text-align: left;
+    font-family: var(--fuenteSecundaria);
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 0;
+}
+
+/* Colores de fondo*/
+.rojo{
+    background-color: var(--rojoOscuro);
+}
+.azul{
+    background-color: var(--azulOscuro);
+}
+.morado{
+    background-color: rgba(120, 4, 97, 0.067);
+}
+.cafe{
+    background-color: rgb(247, 102, 6);
+}
